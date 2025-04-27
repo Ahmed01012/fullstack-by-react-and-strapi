@@ -1,4 +1,4 @@
-Fullstack E-commerce Project
+🚀Fullstack E-commerce Project
 An e-commerce application built with React (frontend) and Strapi (backend).
 This project allows users to browse products, add to cart, and manage orders, with a fully customizable backend.
 
