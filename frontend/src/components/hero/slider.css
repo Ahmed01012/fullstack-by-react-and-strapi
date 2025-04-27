@@ -1,0 +1,58 @@
+/* #app {
+    height: 100%;
+}
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+} */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+/* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide:hover{
+    cursor: grab;
+}
+
+.swiper-slide:active{
+    cursor: grabbing;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:600px) {
+    .parent-slider img {
+        display: none;
+    }
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 460px; /* Set a consistent height */
+    object-fit: cover; /* Ensure images fill the space properly */
+}
